@@ -1,0 +1,12 @@
+package in.co.rays.proj4.model;
+
+import in.co.rays.proj4.bean.UserBean;
+
+public class UserModel {
+
+	public long add(UserBean bean) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

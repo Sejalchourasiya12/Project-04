@@ -1,0 +1,72 @@
+
+Aug 30, 2025 15:34:15.53 NEW SESSION
+Aug 30, 2025 15:34:15.53 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 30, 2025 15:34:15.53 I0000 00:00:1756548255.528117   11188 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 30, 2025 15:34:15.84 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 30, 2025 15:34:15.84 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 30, 2025 15:34:16.34 [29124:13560:0830/153416.348:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:34:35.27 [29124:18956:0830/153435.276:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Aug 30, 2025 15:34:38.78 [29124:13560:0830/153438.780:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:35:30.61 [29124:13560:0830/153530.612:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:37:11.92 [29124:13560:0830/153711.928:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:40:06.97 [29124:13560:0830/154006.975:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 30, 2025 17:38:16.66 NEW SESSION
+Aug 30, 2025 17:38:16.66 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 30, 2025 17:38:16.66 I0000 00:00:1756555696.662404     260 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 30, 2025 17:38:16.69 [3620:3792:0830/173816.694:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 17:38:17.41 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 30, 2025 17:38:17.42 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 30, 2025 17:38:44.00 [3620:3792:0830/173844.009:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 17:39:26.65 [3620:3792:0830/173926.651:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 09:06:08.47 NEW SESSION
+Sep 02, 2025 09:06:08.47 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 09:06:08.47 I0000 00:00:1756784168.472255   13688 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 09:06:09.22 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 09:06:09.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 09:06:09.70 [772:5152:0902/090609.702:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 09:06:14.68 Client requested cancel during Invoke()
+Sep 02, 2025 09:06:16.73 Client requested cancel during Invoke()
+Sep 02, 2025 09:06:38.45 [772:5152:0902/090638.452:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 09:07:37.97 [772:5152:0902/090737.978:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 09:08:52.85 [772:10600:0902/090852.852:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 02, 2025 09:09:34.60 [772:5152:0902/090934.604:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 09:12:34.77 [772:5152:0902/091234.777:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 09:16:08.52 [772:10600:0902/091608.527:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 02, 2025 09:18:01.44 [772:10600:0902/091801.439:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 02, 2025 09:19:15.53 [772:5152:0902/091915.536:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 12:33:01.91 NEW SESSION
+Sep 02, 2025 12:33:01.91 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 12:33:01.91 I0000 00:00:1756796581.914425   16412 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 12:33:01.99 [16552:14984:0902/123301.996:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:33:02.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 12:33:02.15 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 12:33:30.81 [16552:14984:0902/123330.817:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:34:17.41 [16552:14984:0902/123417.416:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:35:54.59 [16552:14984:0902/123554.593:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:38:49.09 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 12:38:49.09 I0000 00:00:1756796929.099796   10460 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 12:38:49.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 12:38:49.20 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 12:38:49.50 [16252:14364:0902/123849.508:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:39:17.52 [16252:14364:0902/123917.519:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:40:17.45 [16252:14364:0902/124017.457:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:45:36.86 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 12:45:36.86 I0000 00:00:1756797336.866347   13520 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 12:45:36.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 12:45:36.99 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 12:45:37.20 [14224:16756:0902/124537.206:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:45:58.85 [14224:16756:0902/124558.850:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:46:42.22 [14224:16756:0902/124642.223:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:47:01.09 [14224:9876:0902/124701.097:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 02, 2025 12:48:41.04 [14224:16756:0902/124841.047:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 12:51:24.82 [14224:16756:0902/125124.811:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 02, 2025 12:56:27.68 [14224:9876:0902/125627.687:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 02, 2025 13:11:40.14 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 13:11:40.14 I0000 00:00:1756798900.144115   12540 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 13:11:40.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 13:11:40.26 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 13:11:40.46 [14456:18144:0902/131140.464:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 02, 2025 13:23:43.43 [14456:10996:0902/132343.433:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost

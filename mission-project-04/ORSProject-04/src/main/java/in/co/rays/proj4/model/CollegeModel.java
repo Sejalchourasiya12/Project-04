@@ -16,20 +16,28 @@ public class CollegeModel {
 
 	public Integer nextPk() throws DatabaseException {
 		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
 		int pk = 0;
 
 		try {
 			conn = JDBCDataSource.getConnection();
-			PreparedStatement pstmt = conn.prepareStatement("select max(id) from st_college");
-			ResultSet rs = pstmt.executeQuery();
-			while (rs.next()) {
+			pstmt = conn.prepareStatement("select max(id) from st_college");
+			rs = pstmt.executeQuery();
+			if (rs.next()) {
 				pk = rs.getInt(1);
 			}
-			rs.close();
-			pstmt.close();
 		} catch (Exception e) {
-			throw new DatabaseException("Exception : Exception in getting PK");
+			throw new DatabaseException("Exception in getting PK: " + e.getMessage());
 		} finally {
+			try {
+				if (rs != null)
+					rs.close();
+				if (pstmt != null)
+					pstmt.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 			JDBCDataSource.closeConnection(conn);
 		}
 		return pk + 1;
@@ -66,12 +74,13 @@ public class CollegeModel {
 			pstmt.close();
 		} catch (Exception e) {
 			try {
-				conn.rollback();
+				if (conn != null)
+					conn.rollback();
 			} catch (Exception ex) {
 				ex.printStackTrace();
 				throw new ApplicationException("Exception : add rollback exception " + ex.getMessage());
 			}
-			throw new ApplicationException("Exception : Exception in add College");
+			throw new ApplicationException("Exception : Exception in add College: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}
@@ -108,11 +117,12 @@ public class CollegeModel {
 			pstmt.close();
 		} catch (Exception e) {
 			try {
-				conn.rollback();
+				if (conn != null)
+					conn.rollback();
 			} catch (Exception ex) {
-				throw new ApplicationException("Exception : Delete rollback exception " + ex.getMessage());
+				throw new ApplicationException("Exception : Update rollback exception " + ex.getMessage());
 			}
-			throw new ApplicationException("Exception in updating College ");
+			throw new ApplicationException("Exception in updating College: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}
@@ -130,11 +140,12 @@ public class CollegeModel {
 			pstmt.close();
 		} catch (Exception e) {
 			try {
-				conn.rollback();
+				if (conn != null)
+					conn.rollback();
 			} catch (Exception ex) {
 				throw new ApplicationException("Exception : Delete rollback exception " + ex.getMessage());
 			}
-			throw new ApplicationException("Exception : Exception in delete college");
+			throw new ApplicationException("Exception : Exception in delete college: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}
@@ -142,17 +153,17 @@ public class CollegeModel {
 
 	public CollegeBean findByPk(long pk) throws ApplicationException {
 
-		StringBuffer sql = new StringBuffer("select * from st_college where id = ?");
+		String sql = "select * from st_college where id = ?";
 
 		CollegeBean bean = null;
 		Connection conn = null;
 
 		try {
 			conn = JDBCDataSource.getConnection();
-			PreparedStatement pstmt = conn.prepareStatement(sql.toString());
+			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setLong(1, pk);
 			ResultSet rs = pstmt.executeQuery();
-			while (rs.next()) {
+			if (rs.next()) {
 				bean = new CollegeBean();
 				bean.setId(rs.getLong(1));
 				bean.setName(rs.getString(2));
@@ -168,7 +179,7 @@ public class CollegeModel {
 			rs.close();
 			pstmt.close();
 		} catch (Exception e) {
-			throw new ApplicationException("Exception : Exception in getting College by pk");
+			throw new ApplicationException("Exception : Exception in getting College by pk: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}
@@ -177,17 +188,17 @@ public class CollegeModel {
 
 	public CollegeBean findByName(String name) throws ApplicationException {
 
-		StringBuffer sql = new StringBuffer("select * from st_college where name = ?");
+		String sql = "select * from st_college where name = ?";
 
 		CollegeBean bean = null;
 		Connection conn = null;
 
 		try {
 			conn = JDBCDataSource.getConnection();
-			PreparedStatement pstmt = conn.prepareStatement(sql.toString());
+			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, name);
 			ResultSet rs = pstmt.executeQuery();
-			while (rs.next()) {
+			if (rs.next()) {
 				bean = new CollegeBean();
 				bean.setId(rs.getLong(1));
 				bean.setName(rs.getString(2));
@@ -203,7 +214,7 @@ public class CollegeModel {
 			rs.close();
 			pstmt.close();
 		} catch (Exception e) {
-			throw new ApplicationException("Exception : Exception in getting College by Name");
+			throw new ApplicationException("Exception : Exception in getting College by Name: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}
@@ -216,59 +227,70 @@ public class CollegeModel {
 
 	public List<CollegeBean> search(CollegeBean bean, int pageNo, int pageSize) throws ApplicationException {
 
-		StringBuffer sql = new StringBuffer("select * from st_college where 1 = 1");
+		StringBuffer sql = new StringBuffer("select * from st_college where 1=1");
+		List<Object> params = new ArrayList<>();
 
 		if (bean != null) {
 			if (bean.getId() > 0) {
 				sql.append(" and id = " + bean.getId());
 			}
-			if (bean.getName() != null && bean.getName().length() > 0) {
-				sql.append(" and name like '" + bean.getName() + "%'");
+
+			if (bean.getName() != null && !bean.getName().isEmpty()) {
+				sql.append(" and name like ?");
+				params.add(bean.getName() + "%");
 			}
-			if (bean.getAddress() != null && bean.getAddress().length() > 0) {
-				sql.append(" and address like '" + bean.getAddress() + "%'");
+			if (bean.getAddress() != null && !bean.getAddress().isEmpty()) {
+				sql.append(" and address like ?");
+				params.add(bean.getAddress() + "%");
 			}
-			if (bean.getState() != null && bean.getState().length() > 0) {
-				sql.append(" and state like '" + bean.getState() + "%'");
+			if (bean.getState() != null && !bean.getState().isEmpty()) {
+				sql.append(" and state like ?");
+				params.add(bean.getState() + "%");
 			}
-			if (bean.getCity() != null && bean.getCity().length() > 0) {
-				sql.append(" and city like '" + bean.getCity() + "%'");
+			if (bean.getCity() != null && !bean.getCity().isEmpty()) {
+				sql.append(" and city like ?");
+				params.add(bean.getCity() + "%");
 			}
-			if (bean.getPhoneNo() != null && bean.getPhoneNo().length() > 0) {
-				sql.append(" and phone_no = " + bean.getPhoneNo());
+			if (bean.getPhoneNo() != null && !bean.getPhoneNo().isEmpty()) {
+				sql.append(" and phone_no = ?");
+				params.add(bean.getPhoneNo());
 			}
 		}
 
 		if (pageSize > 0) {
 			pageNo = (pageNo - 1) * pageSize;
-			sql.append(" limit " + pageNo + ", " + pageSize);
+			sql.append(" limit ?, ?");
+			params.add(pageNo);
+			params.add(pageSize);
 		}
 
-		ArrayList<CollegeBean> list = new ArrayList<CollegeBean>();
+		List<CollegeBean> list = new ArrayList<>();
 		Connection conn = null;
 
 		try {
 			conn = JDBCDataSource.getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(sql.toString());
+
+			for (int i = 0; i < params.size(); i++) {
+				pstmt.setObject(i + 1, params.get(i));
+			}
+
 			ResultSet rs = pstmt.executeQuery();
+
 			while (rs.next()) {
-				bean = new CollegeBean();
-				bean.setId(rs.getLong(1));
-				bean.setName(rs.getString(2));
-				bean.setAddress(rs.getString(3));
-				bean.setState(rs.getString(4));
-				bean.setCity(rs.getString(5));
-				bean.setPhoneNo(rs.getString(6));
-				bean.setCreatedBy(rs.getString(7));
-				bean.setModifiedBy(rs.getString(8));
-				bean.setCreatedDatetime(rs.getTimestamp(9));
-				bean.setModifiedDatetime(rs.getTimestamp(10));
-				list.add(bean);
+				CollegeBean cbean = new CollegeBean();
+				cbean.setId(rs.getLong(1));
+				cbean.setName(rs.getString(2));
+				cbean.setAddress(rs.getString(3));
+				cbean.setState(rs.getString(4));
+				cbean.setCity(rs.getString(5));
+				cbean.setPhoneNo(rs.getString(6));
+				list.add(cbean);
 			}
 			rs.close();
 			pstmt.close();
 		} catch (Exception e) {
-			throw new ApplicationException("Exception : Exception in search college");
+			throw new ApplicationException("Exception : Exception in search college: " + e.getMessage());
 		} finally {
 			JDBCDataSource.closeConnection(conn);
 		}

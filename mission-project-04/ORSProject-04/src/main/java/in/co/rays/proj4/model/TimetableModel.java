@@ -138,9 +138,9 @@ public class TimetableModel {
 			conn = JDBCDataSource.getConnection();
 			conn.setAutoCommit(false); // Begin transaction
 			PreparedStatement pstmt = conn.prepareStatement("DELETE FROM ST_TIMETABLE WHERE ID=?");
-			pstmt.setLong(1, l.getId());
+			pstmt.setLong(1, l);
 			pstmt.executeUpdate();
-			conn.commit(); // End transaction
+			conn.commit(); // 
 			pstmt.close();
 
 		} catch (Exception e) {

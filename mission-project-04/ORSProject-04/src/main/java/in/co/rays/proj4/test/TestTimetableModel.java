@@ -14,9 +14,9 @@ public class TestTimetableModel {
 	public static void main(String[] args) throws Exception {
 //		 testAdd();
 //		 testUpdate();
-//		 testDelete();
+		 testDelete();
 //		 testfindByPk();
-         testsearch();
+     //    testsearch();
 
 	}
 

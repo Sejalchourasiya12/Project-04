@@ -23,16 +23,22 @@ import in.co.rays.proj4.util.ServletUtility;
 public class FacultyCtl extends BaseCtl {
 	@Override
 	protected void preload(HttpServletRequest request) {
+
 		CollegeModel collegeModel = new CollegeModel();
 		SubjectModel subjectModel = new SubjectModel();
 		CourseModel courseModel = new CourseModel();
+
 		try {
-			List collegeList = collegeModel.list();
-			request.setAttribute("collegeList", collegeList);
-			List subjectList = subjectModel.list();
-			request.setAttribute("subjectList", subjectList);
+//			List collegeList = collegeModel.list();
+//			request.setAttribute("collegeList", collegeList);
+
+//			List subjectList = subjectModel.list();
+//			request.setAttribute("subjectList", subjectList);
+
 			List courseList = courseModel.list();
+			System.out.println("courseList ------> " + courseList.size());
 			request.setAttribute("courseList", courseList);
+
 		} catch (ApplicationException e) {
 			e.printStackTrace();
 		}
@@ -117,6 +123,7 @@ public class FacultyCtl extends BaseCtl {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		preload(request);
 		long id = DataUtility.getLong(request.getParameter("id"));
 		FacultyModel model = new FacultyModel();
 		if (id > 0) {
@@ -129,6 +136,7 @@ public class FacultyCtl extends BaseCtl {
 				return;
 			}
 		}
+
 		ServletUtility.forward(getView(), request, response);
 	}
 
@@ -174,6 +182,7 @@ public class FacultyCtl extends BaseCtl {
 			ServletUtility.redirect(ORSView.FACULTY_CTL, request, response);
 			return;
 		}
+		preload(request);
 		ServletUtility.forward(getView(), request, response);
 	}
 

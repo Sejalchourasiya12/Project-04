@@ -33,8 +33,6 @@ public class HTMLUtility {
 
 	public static String getList(String name, String selectedVal, List list) {
 
-		// Collections.sort(list);
-
 		List<DropdownListBean> dd = (List<DropdownListBean>) list;
 
 		StringBuffer sb = new StringBuffer("<select style=\"width: 169px;text-align-last: center;\"; "
@@ -58,6 +56,7 @@ public class HTMLUtility {
 		sb.append("\n</select>");
 		return sb.toString();
 	}
+
 
 	public static void testGetListByMap() {
 

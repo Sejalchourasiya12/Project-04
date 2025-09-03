@@ -57,8 +57,7 @@ public class CollegeModel {
 			conn = JDBCDataSource.getConnection();
 			pk = nextPk();
 			conn.setAutoCommit(false);
-			PreparedStatement pstmt = conn
-					.prepareStatement("insert into st_college values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+			PreparedStatement pstmt = conn.prepareStatement("insert into st_college values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 			pstmt.setInt(1, pk);
 			pstmt.setString(2, bean.getName());
 			pstmt.setString(3, bean.getAddress());
@@ -69,6 +68,8 @@ public class CollegeModel {
 			pstmt.setString(8, bean.getModifiedBy());
 			pstmt.setTimestamp(9, bean.getCreatedDatetime());
 			pstmt.setTimestamp(10, bean.getModifiedDatetime());
+			
+			
 			pstmt.executeUpdate();
 			conn.commit();
 			pstmt.close();

@@ -29,11 +29,11 @@ public class FacultyCtl extends BaseCtl {
 		CourseModel courseModel = new CourseModel();
 
 		try {
-//			List collegeList = collegeModel.list();
-//			request.setAttribute("collegeList", collegeList);
+			List collegeList = collegeModel.list();
+			request.setAttribute("collegeList", collegeList);
 
-//			List subjectList = subjectModel.list();
-//			request.setAttribute("subjectList", subjectList);
+			List subjectList = subjectModel.list();
+			request.setAttribute("subjectList", subjectList);
 
 			List courseList = courseModel.list();
 			System.out.println("courseList ------> " + courseList.size());
@@ -142,19 +142,29 @@ public class FacultyCtl extends BaseCtl {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
 		String op = DataUtility.getString(request.getParameter("operation"));
 		FacultyModel model = new FacultyModel();
+		
 		long id = DataUtility.getLong(request.getParameter("id"));
+		
 		if (OP_SAVE.equalsIgnoreCase(op)) {
+			
 			FacultyBean bean = (FacultyBean) populateBean(request);
+			
 			try {
+				
 				long pk = model.add(bean);
 				ServletUtility.setBean(bean, request);
 				ServletUtility.setSuccessMessage("Faculty added successfully", request);
+				
 			} catch (DuplicateRecordException e) {
+				
 				ServletUtility.setBean(bean, request);
 				ServletUtility.setErrorMessage("Email already exists", request);
+				
 			} catch (ApplicationException e) {
+				
 				e.printStackTrace();
 				ServletUtility.handleException(e, request, response);
 				return;

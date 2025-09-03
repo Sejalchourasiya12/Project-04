@@ -132,13 +132,13 @@ public class TimetableModel {
 		}
 	}
 
-	public void delete(long l) throws ApplicationException {
+	public void delete(TimetableBean deletebean) throws ApplicationException {
 		Connection conn = null;
 		try {
 			conn = JDBCDataSource.getConnection();
 			conn.setAutoCommit(false); // Begin transaction
 			PreparedStatement pstmt = conn.prepareStatement("DELETE FROM ST_TIMETABLE WHERE ID=?");
-			pstmt.setLong(1, l);
+			pstmt.setLong(1, deletebean.getId());
 			pstmt.executeUpdate();
 			conn.commit(); // 
 			pstmt.close();
@@ -427,5 +427,6 @@ public class TimetableModel {
 		return list;
 	}
 
+	
 	
 }

@@ -63,7 +63,9 @@ public class TestTimetableModel {
 	public static void testDelete() throws Exception {
 
 		TimetableModel model = new TimetableModel();
-		model.delete(2L);
+		TimetableBean bean = new TimetableBean();
+		bean.setId(2);
+		model.delete(bean);
 	}
 
 	public static void testfindByPk() throws Exception {

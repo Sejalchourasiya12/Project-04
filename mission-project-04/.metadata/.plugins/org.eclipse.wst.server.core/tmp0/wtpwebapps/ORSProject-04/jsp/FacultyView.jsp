@@ -21,9 +21,9 @@
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.FacultyBean"
 			scope="request"></jsp:useBean>
 		<%
-			/* List<FacultyBean> collegeList = (List<FacultyBean>) request.getAttribute("collegeList"); */
+			List<FacultyBean> collegeList = (List<FacultyBean>) request.getAttribute("collegeList");
 			List<CourseBean> courseList = (List<CourseBean>) request.getAttribute("courseList");
-			/* List<FacultyBean> subjectList = (List<FacultyBean>) request.getAttribute("subjectList"); */
+			List<FacultyBean> subjectList = (List<FacultyBean>) request.getAttribute("subjectList");
 		%>
 		<div align="center">
 			<h1 align="center" style="margin-bottom: -15; color: navy">
@@ -102,11 +102,11 @@
 						value="<%=DataUtility.getStringData(bean.getMobileNo())%>"></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("mobileNo", request)%></font></td>
 				</tr>
-				<%-- 	<tr>
+				<tr>
 					<th align="left">College<span style="color: red">*</span></th>
 					<td><%=HTMLUtility.getList("collegeId", String.valueOf(bean.getCollegeId()), collegeList)%></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("collegeId", request)%></font></td>
-				</tr> --%>
+				</tr>
 
 
 
@@ -117,11 +117,11 @@
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("courseId", request)%>
 					</font></td>
 				</tr>
-				<%--- 	<tr>
+				<tr>
 					<th align="left">Subject<span style="color: red">*</span></th>
 					<td><%=HTMLUtility.getList("subjectId", String.valueOf(bean.getSubjectId()), subjectList)%></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("subjectId", request)%></font></td>
-				</tr> --%>
+				</tr>
 				<tr>
 					<th></th>
 					<td></td>

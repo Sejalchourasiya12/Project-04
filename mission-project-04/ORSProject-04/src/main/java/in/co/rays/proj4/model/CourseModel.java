@@ -110,13 +110,13 @@ public class CourseModel {
 		}
 	}
 
-	public void delete(int i) throws ApplicationException {
+	public void delete(long deletebean) throws ApplicationException {
 		Connection conn = null;
 		try {
 			conn = JDBCDataSource.getConnection();
 			conn.setAutoCommit(false);
 			PreparedStatement pstmt = conn.prepareStatement("delete from st_course where id = ?");
-			pstmt.setLong(1, i); // ✅ Sirf yeh line change ki gayi hai
+			pstmt.setLong(1, deletebean); 
 			pstmt.executeUpdate();
 			conn.commit();
 			pstmt.close();

@@ -38,6 +38,7 @@ public class FacultyModel {
 	}
 
 	public long add(FacultyBean bean) throws ApplicationException, DuplicateRecordException {
+		
 		Connection conn = null;
 		int pk = 0;
 

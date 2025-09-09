@@ -1,7 +1,0 @@
-package in.co.rays.proj4.controller;
-
-public class ORSView {
-
-	public static final String ERROR_CTL = null;
-
-}

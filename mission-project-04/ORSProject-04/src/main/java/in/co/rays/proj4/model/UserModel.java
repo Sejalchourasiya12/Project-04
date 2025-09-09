@@ -12,6 +12,9 @@ import in.co.rays.proj4.exception.ApplicationException;
 import in.co.rays.proj4.exception.DatabaseException;
 import in.co.rays.proj4.exception.DuplicateRecordException;
 import in.co.rays.proj4.exception.RecordNotFoundException;
+import in.co.rays.proj4.util.EmailBuilder;
+import in.co.rays.proj4.util.EmailMessage;
+import in.co.rays.proj4.util.EmailUtility;
 import in.co.rays.proj4.util.JDBCDataSource;
 
 /**
@@ -518,16 +521,16 @@ public class UserModel {
 		map.put("login", bean.getLogin());
 		map.put("password", bean.getPassword());
 
-		//String message = EmailBuilder.getUserRegistrationMessage(map);
+		String message = EmailBuilder.getUserRegistrationMessage(map);
 
-		//EmailMessage msg = new EmailMessage();
+		EmailMessage msg = new EmailMessage();
 
-	//	msg.setTo(bean.getLogin());
-	//	msg.setSubject("Registration is successful for ORSProject-04");
-	//	msg.setMessage(message);
-	//	msg.setMessageType(EmailMessage.HTML_MSG);
+		msg.setTo(bean.getLogin());
+		msg.setSubject("Registration is successful for ORSProject-04");
+		msg.setMessage(message);
+		msg.setMessageType(EmailMessage.HTML_MSG);
 
-	//	EmailUtility.sendMail(msg);
+		EmailUtility.sendMail(msg);
 
 		return pk;
 	}

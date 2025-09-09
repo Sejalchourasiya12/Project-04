@@ -27,10 +27,10 @@
 	<b>|</b>
 	<%-- <a href="ChangePasswordCtl"><b>Change Password</b></a>
 	<b>|</b>--%>
-	<%--<a href="GetMarksheetCtl"><b>Get Marksheet</b></a>
-	<b>|</b>--%>
-	<%--<a href="MarksheetMeritListCtl"><b>Marksheet Merit List</b></a>
-	<b>|</b>--%>
+	<a href="GetMarksheetCtl"><b>Get Marksheet</b></a>
+	<b>|</b>
+	<a href="MarksheetMeritListCtl"><b>Marksheet Merit List</b></a>
+	<b>|</b>
 	<a href="UserCtl"><b>Add User</b></a>
 	<b>|</b>
 	<a href="UserListCtl"><b>User List</b></a>
@@ -47,10 +47,10 @@
 	<b>|</b>
 	<a href="StudentListCtl"><b>Student List</b></a>
 	<b>|</b>
-	<%-- <a href="MarksheetCtl"><b>Add Marksheet</b></a>
-	<b>|</b>--%>
-	<%--<a href="MarksheetListCtl"><b>Marksheet List</b></a>
-	<b>|</b>--%>
+	<a href="MarksheetCtl"><b>Add Marksheet</b></a>
+	<b>|</b>
+	<a href="MarksheetListCtl"><b>Marksheet List</b></a>
+	<b>|</b>
 	<a href="CourseCtl"><b>Add Course</b></a>
 	<b>|</b>
 	<a href="CourseListCtl"><b>Course List</b></a>

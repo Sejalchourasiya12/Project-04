@@ -9,4 +9,8 @@
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="in.co.rays.proj4.bean.SubjectBean"/>
+    <fullyQualifiedTypeName name="in.co.rays.proj4.bean.TimetableBean"/>
+    <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailBuilder"/>
+    <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailMessage"/>
+    <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailUtility"/>
 </qualifiedTypeNameHistroy>

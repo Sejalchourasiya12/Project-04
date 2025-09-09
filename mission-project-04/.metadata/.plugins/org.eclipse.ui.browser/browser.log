@@ -92,3 +92,44 @@ Sep 03, 2025 17:15:37.27 Attempting to use a delegate that only supports static-
 Sep 03, 2025 17:16:07.40 [14404:16264:0903/171607.388:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 Sep 03, 2025 17:16:58.98 [14404:16264:0903/171658.980:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 Sep 03, 2025 17:18:48.37 [14404:16264:0903/171848.374:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 17:21:50.00 [14404:16264:0903/172150.002:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 17:27:21.75 [14404:16264:0903/172721.759:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 17:30:39.91 [14404:16264:0903/173039.906:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 17:31:02.94 [14404:16264:0903/173102.947:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 03, 2025 17:33:51.70 [14404:15244:0903/173351.703:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 03, 2025 17:58:42.78 [14404:16264:0903/173909.893:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 17:58:43.45 [14404:16264:0903/175843.452:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 03, 2025 18:08:31.18 [14404:16264:0903/180831.186:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 18:23:21.74 [14404:16264:0903/182321.748:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 18:33:41.75 [14404:16264:0903/183341.748:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 18:37:53.04 [14404:16264:0903/183732.972:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 18:38:16.87 [14404:15244:0903/183816.870:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 03, 2025 19:00:32.94 [14404:16264:0903/190032.941:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Sep 04, 2025 15:19:42.45 NEW SESSION
+Sep 04, 2025 15:19:42.45 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 04, 2025 15:19:42.45 I0000 00:00:1756979382.455178   20112 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 04, 2025 15:19:42.58 [19036:6088:0904/151942.584:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:19:43.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 04, 2025 15:19:43.34 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 04, 2025 15:20:07.62 [19036:6088:0904/152007.623:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:20:51.57 [19036:6088:0904/152051.574:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:22:48.52 [19036:6088:0904/152248.521:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:26:28.28 [19036:6088:0904/152628.288:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:32:49.83 [19036:6088:0904/153249.831:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 04, 2025 15:41:30.12 [19036:6088:0904/154130.122:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 04, 2025 15:44:50.93 [19036:6088:0904/154450.935:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -103
+Sep 04, 2025 15:50:21.20 [19036:6088:0904/155021.199:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 04, 2025 15:52:50.79 [19036:6088:0904/155250.799:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 04, 2025 16:07:47.16 [19036:6088:0904/155641.642:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 04, 2025 16:07:47.22 [19036:6088:0904/160747.221:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 04, 2025 16:11:03.72 [19036:6088:0904/161103.727:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 04, 2025 16:22:43.14 [19036:6088:0904/162243.143:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 04, 2025 16:29:26.68 [19036:6088:0904/162926.688:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Sep 04, 2025 16:49:08.21 NEW SESSION
+Sep 04, 2025 16:49:08.21 [19716:5380:0904/164908.212:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 04, 2025 16:49:08.44 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 04, 2025 16:49:08.45 I0000 00:00:1756984748.457695    9144 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 04, 2025 16:49:09.42 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 04, 2025 16:49:09.44 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).

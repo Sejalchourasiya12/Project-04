@@ -61,7 +61,6 @@ public class LoginCtl extends BaseCtl {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
 		HttpSession session = request.getSession();
 
 		String op = DataUtility.getString(request.getParameter("operation"));
@@ -77,16 +76,16 @@ public class LoginCtl extends BaseCtl {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+		
 		HttpSession session = request.getSession();
 
 		String op = DataUtility.getString(request.getParameter("operation"));
 
 		UserModel model = new UserModel();
 		RoleModel role = new RoleModel();
-
+		
 		if (OP_SIGN_IN.equalsIgnoreCase(op)) {
-
+			
 			UserBean bean = (UserBean) populateBean(request);
 
 			try {
@@ -117,6 +116,7 @@ public class LoginCtl extends BaseCtl {
 			ServletUtility.redirect(ORSView.USER_REGISTRATION_CTL, request, response);
 			return;
 		}
+
 		ServletUtility.forward(getView(), request, response);
 	}
 

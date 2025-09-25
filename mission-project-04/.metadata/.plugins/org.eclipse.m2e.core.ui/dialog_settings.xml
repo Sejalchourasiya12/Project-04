@@ -25,8 +25,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="in.co.rays.ORSProject_04"/>
 			<item value="in.co.rays"/>
+			<item value="in.co.rays.ORSProject_04"/>
 		</list>
 		<list key="groupId">
 			<item value="in.co.rays"/>

@@ -17,7 +17,7 @@ import in.co.rays.proj4.util.DataUtility;
 import in.co.rays.proj4.util.PropertyReader;
 import in.co.rays.proj4.util.ServletUtility;
 
-@WebServlet(name = "UserListCtl", urlPatterns = { "/UserListCtl" })
+@WebServlet(name = "UserListCtl", urlPatterns = { "/ctl/UserListCtl" })
 public class UserListCtl extends BaseCtl {
 
 	@Override
@@ -117,7 +117,7 @@ public class UserListCtl extends BaseCtl {
 					UserBean deletebean = new UserBean();
 					for (String id : ids) {
 						deletebean.setId(DataUtility.getInt(id));
-						model.delete(deletebean);
+						model.delete(deletebean.getId());
 						ServletUtility.setSuccessMessage("User deleted successfully", request);
 					}
 				} else {

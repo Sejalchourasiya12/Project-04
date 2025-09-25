@@ -133,3 +133,185 @@ Sep 04, 2025 16:49:08.44 WARNING: All log messages before absl::InitializeLog() 
 Sep 04, 2025 16:49:08.45 I0000 00:00:1756984748.457695    9144 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
 Sep 04, 2025 16:49:09.42 Created TensorFlow Lite XNNPACK delegate for CPU.
 Sep 04, 2025 16:49:09.44 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+
+Sep 10, 2025 16:06:18.91 NEW SESSION
+Sep 10, 2025 16:06:18.91 [12300:19916:0910/160618.905:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 10, 2025 16:06:19.31 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 10, 2025 16:06:43.44 [12300:19916:0910/160643.446:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 10, 2025 16:07:40.77 [12300:19916:0910/160740.774:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 10, 2025 16:09:12.90 [12300:19916:0910/160912.905:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 10, 2025 16:12:49.35 [12300:19916:0910/161249.352:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 13, 2025 01:13:42.08 NEW SESSION
+Sep 13, 2025 01:13:42.08 [20428:9672:0913/011342.085:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:13:42.70 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 13, 2025 01:14:04.32 [20428:9672:0913/011404.322:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:14:53.42 [20428:9672:0913/011453.422:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:16:48.54 [20428:9672:0913/011648.548:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:19:56.74 [20428:9672:0913/011956.746:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:26:43.33 [20428:9672:0913/012643.336:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:33:19.21 [20428:6200:0913/013319.211:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 13, 2025 01:57:47.47 [20428:9672:0913/015747.476:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 13, 2025 02:04:21.66 [20428:9672:0913/020421.666:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+
+Sep 13, 2025 10:48:30.38 NEW SESSION
+Sep 13, 2025 10:48:30.38 [13120:15524:0913/104830.381:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 10:48:31.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 13, 2025 10:48:53.90 [13120:15524:0913/104853.908:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 13, 2025 12:00:41.46 NEW SESSION
+Sep 13, 2025 12:00:41.46 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 13, 2025 12:00:41.67 [19656:14068:0913/120041.679:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 12:01:08.50 [19656:14068:0913/120108.503:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 12:02:04.85 [19656:14068:0913/120204.850:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 12:03:51.95 [19656:14068:0913/120351.956:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 12:06:35.32 [19656:14068:0913/120635.321:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 12:14:21.47 [19656:14068:0913/121421.473:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 15, 2025 23:23:02.77 NEW SESSION
+Sep 15, 2025 23:23:02.77 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 15, 2025 23:23:19.82 [5640:22848:0915/232319.827:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 15, 2025 23:23:37.27 [5640:22848:0915/232337.275:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 15, 2025 23:23:47.21 [5640:22848:0915/232347.213:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 15, 2025 23:23:59.68 [5640:22848:0915/232359.684:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 15, 2025 23:24:00.87 [5640:19040:0915/232400.874:ERROR:components\device_event_log\device_event_log_impl.cc:198] [23:24:00.852] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 15, 2025 23:24:05.42 [5640:22848:0915/232405.425:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 15, 2025 23:24:55.64 [5640:22848:0915/232455.646:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 15, 2025 23:26:31.05 [5640:22848:0915/232631.050:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 15, 2025 23:31:04.67 [5640:22848:0915/233104.676:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 15, 2025 23:38:59.14 [5640:22848:0915/233859.143:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+
+Sep 16, 2025 07:41:20.29 NEW SESSION
+Sep 16, 2025 07:41:20.29 [13348:15464:0916/074120.288:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 07:41:23.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 16, 2025 07:41:43.48 [13348:15464:0916/074143.481:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 07:42:31.60 [13348:15464:0916/074231.600:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 07:43:55.42 [13348:15464:0916/074355.423:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 07:47:17.47 [13348:15464:0916/074717.478:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 07:52:41.28 [13348:15464:0916/075241.287:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 16, 2025 08:47:47.93 [13348:700:0916/084747.934:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 16, 2025 08:48:06.13 [13348:15464:0916/084806.138:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 08:48:34.70 [13348:15464:0916/084834.706:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 08:49:22.88 [13348:15464:0916/084922.887:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 08:51:09.93 [13348:15464:0916/085109.934:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 08:54:28.85 [13348:15464:0916/085428.853:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 16, 2025 09:18:57.77 NEW SESSION
+Sep 16, 2025 09:18:57.77 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 16, 2025 09:18:57.95 [19104:8480:0916/091857.953:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:19:27.33 [19104:8480:0916/091927.331:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:20:17.18 [19104:8480:0916/092017.182:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:21:51.16 [19104:8480:0916/092151.167:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:25:45.54 [19104:8480:0916/092545.542:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:30:36.21 [19104:12488:0916/093036.215:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 16, 2025 09:33:26.42 [19104:8480:0916/093326.428:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 16, 2025 09:34:30.42 [19104:8480:0916/093430.420:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Sep 17, 2025 08:15:30.89 NEW SESSION
+Sep 17, 2025 08:15:30.89 [15316:9256:0917/081530.892:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 17, 2025 08:15:31.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 17, 2025 08:15:57.56 [15316:9256:0917/081557.562:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 17, 2025 08:16:01.28 [15316:18832:0917/081601.281:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:62] OnGetTokenFailure: Connection failed (-106).
+Sep 17, 2025 08:16:47.40 [15316:9256:0917/081647.407:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 17, 2025 08:18:15.80 [15316:9256:0917/081815.806:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 17, 2025 08:21:30.96 [15316:9256:0917/082130.964:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 17, 2025 08:34:18.01 [15316:9256:0917/083418.014:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+
+Sep 17, 2025 17:16:19.92 NEW SESSION
+Sep 17, 2025 17:16:19.93 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 17, 2025 17:16:33.60 [14956:18948:0917/171633.607:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 17, 2025 17:17:23.56 [14956:18948:0917/171723.562:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 17, 2025 17:17:30.87 [14956:18948:0917/171730.877:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 17, 2025 17:18:22.65 [14956:18948:0917/171822.655:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 17, 2025 17:19:54.43 [14956:18948:0917/171954.433:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 17, 2025 17:23:01.58 [14956:18948:0917/172301.581:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 18, 2025 09:14:48.33 NEW SESSION
+Sep 18, 2025 09:14:48.33 [8240:10064:0918/091448.332:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 09:14:48.33 [8240:10064:0918/091448.332:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 09:14:49.19 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 18, 2025 09:15:10.08 [8240:10064:0918/091510.084:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 09:15:17.32 [8240:10064:0918/091517.323:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 09:15:20.58 [8240:12428:0918/091520.587:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:62] OnGetTokenFailure: Connection failed (-105).
+Sep 18, 2025 09:15:57.98 [8240:10064:0918/091557.985:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 09:15:59.48 [8240:10064:0918/091559.483:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 09:17:30.46 [8240:10064:0918/091730.465:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 09:17:44.92 [8240:10064:0918/091744.925:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 09:20:41.96 [8240:10064:0918/092041.962:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 09:20:44.80 [8240:10064:0918/092044.800:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+
+Sep 18, 2025 14:23:15.40 NEW SESSION
+Sep 18, 2025 14:23:15.40 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 18, 2025 14:23:29.69 [7124:5256:0918/142329.692:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:24:04.24 [7124:5256:0918/142404.241:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 18, 2025 14:24:31.11 [7124:5256:0918/142431.118:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 18, 2025 14:25:10.39 [7124:5256:0918/142510.392:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 18, 2025 14:25:12.37 [7124:5256:0918/142512.374:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:25:18.84 [7124:5256:0918/142518.844:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:25:19.63 [7124:5256:0918/142519.631:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 14:25:21.84 [7124:16552:0918/142521.847:ERROR:components\device_event_log\device_event_log_impl.cc:198] [14:25:21.833] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 18, 2025 14:25:22.97 [7124:5256:0918/142522.972:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:25:29.86 [7124:5256:0918/142529.866:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:25:33.37 [7124:5256:0918/142533.374:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:25:41.55 [7124:5256:0918/142541.556:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:26:07.67 [7124:5256:0918/142607.676:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:26:14.92 [7124:5256:0918/142614.923:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 18, 2025 14:27:08.47 [7124:5256:0918/142708.475:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 18, 2025 14:30:23.72 [7124:5256:0918/143023.727:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 18, 2025 14:38:39.39 [7124:5256:0918/143839.392:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 18, 2025 15:07:33.52 [7124:5256:0918/150733.522:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 18, 2025 15:10:12.92 [7124:5256:0918/151012.922:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+
+Sep 21, 2025 23:14:05.75 NEW SESSION
+Sep 21, 2025 23:14:05.75 [6304:22384:0921/231405.747:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 21, 2025 23:14:05.78 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 21, 2025 23:14:30.29 [6304:22384:0921/231430.298:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 21, 2025 23:15:25.19 [6304:22384:0921/231525.196:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 21, 2025 23:16:50.78 [6304:22384:0921/231650.782:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 21, 2025 23:19:32.98 [6304:22384:0921/231932.983:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 21, 2025 23:38:02.49 [6304:22384:0921/233802.495:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 21, 2025 23:40:41.59 [6304:9040:0921/234041.591:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Sep 23, 2025 15:00:20.39 NEW SESSION
+Sep 23, 2025 15:00:20.39 [12792:10900:0923/150020.390:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 23, 2025 15:00:21.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 23, 2025 15:00:41.76 [12792:10900:0923/150041.764:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 23, 2025 15:01:05.51 [12792:18292:0923/150105.512:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 23, 2025 15:28:33.84 [12792:10900:0923/152833.846:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 15:47:33.47 [12792:10900:0923/154733.477:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 16:21:16.36 [12792:10900:0923/162116.369:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 23, 2025 16:21:37.85 [12792:18292:0923/162137.853:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 23, 2025 16:27:33.97 [12792:10900:0923/162733.971:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 16:28:11.20 [12792:10900:0923/162811.200:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+Sep 23, 2025 16:32:03.95 [12792:10900:0923/163203.951:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 16:34:51.51 [12792:10900:0923/163451.512:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 23, 2025 16:38:31.54 [12792:10900:0923/163831.539:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 16:43:13.16 [12792:10900:0923/164313.162:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 16:51:10.31 [12792:10900:0923/165110.313:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+Sep 23, 2025 16:55:26.22 [12792:10900:0923/165526.224:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 23, 2025 17:04:43.32 [12792:10900:0923/170443.323:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -109
+
+Sep 25, 2025 08:51:16.25 NEW SESSION
+Sep 25, 2025 08:51:16.25 [11580:10848:0925/085116.250:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 08:51:16.25 [11580:10848:0925/085116.250:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 08:51:17.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 25, 2025 08:51:39.90 [11580:10848:0925/085139.903:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 08:51:44.10 [11580:10848:0925/085144.107:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 08:51:47.71 [11580:15896:0925/085147.719:ERROR:components\signin\internal\identity_manager\account_info_fetcher.cc:62] OnGetTokenFailure: Connection failed (-105).
+Sep 25, 2025 08:52:26.39 [11580:10848:0925/085226.394:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 08:52:33.67 [11580:10848:0925/085233.673:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 08:53:54.72 [11580:10848:0925/085354.727:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 08:54:13.39 [11580:10848:0925/085413.392:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 08:57:00.50 [11580:10848:0925/085700.504:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 08:57:08.25 [11580:10848:0925/085708.252:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 09:03:16.45 [11580:10848:0925/090316.456:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 09:03:48.92 [11580:10848:0925/090348.926:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 25, 2025 09:06:00.39 [11580:10848:0925/090600.392:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 25, 2025 09:06:04.69 [11580:10848:0925/090604.693:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 25, 2025 09:06:29.44 [11580:10848:0925/090629.441:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 25, 2025 09:06:38.67 [11580:15896:0925/090638.671:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 25, 2025 09:07:26.26 [11580:10848:0925/090726.262:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 25, 2025 09:08:53.00 [11580:10848:0925/090853.003:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 25, 2025 09:26:14.36 [11580:15896:0925/092614.357:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Sep 25, 2025 09:32:44.50 [11580:10848:0925/093244.499:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 25, 2025 09:37:03.83 [11580:15896:0925/093703.835:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost

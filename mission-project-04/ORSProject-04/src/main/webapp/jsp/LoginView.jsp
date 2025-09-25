@@ -22,11 +22,11 @@
 
 			<div style="height: 15px; margin-bottom: 12px">
 				<H3 align="center">
-					<font color="red"> <%=ServletUtility.getErrorMessage(request)%>
+					<font color="red"><%=ServletUtility.getErrorMessage(request)%>
 					</font>
 				</H3>
 				<H3 align="center">
-					<font color="green"> <%=ServletUtility.getSuccessMessage(request)%>
+					<font color="green"><%=ServletUtility.getSuccessMessage(request)%>
 					</font>
 				</H3>
 			</div>
@@ -69,5 +69,6 @@
 			</table>
 		</div>
 	</form>
+	 <%@ include file="Footer.jsp"%>
 </body>
 </html>

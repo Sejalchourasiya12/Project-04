@@ -1,6 +1,6 @@
 <%@page import="in.co.rays.proj4.bean.RoleBean"%>
 <%@page import="in.co.rays.proj4.controller.ORSView"%>
-<%@page import="in.co.rays.proj4.controller.UserCtl"%>
+<%@page import="in.co.rays.proj4.controller.UserCtl"%> 
 <%@page import="java.util.List"%>
 <%@page import="in.co.rays.proj4.util.HTMLUtility"%>
 <%@page import="java.util.HashMap"%>
@@ -151,5 +151,6 @@
 			</table>
 		</div>
 	</form>
+	 <%@ include file="Footer.jsp"%>s
 </body>
 </html>

@@ -29,12 +29,7 @@
 					<font color="red"> <%=ServletUtility.getErrorMessage(request)%>
 					</font>
 				</H3>
-				<H3 align="center">
-					<font color="red"> <%=ServletUtility.getErrorMessage(request)%>
-					</font>
-				</H3>
 			</div>
-
 
 			<input type="hidden" name="id" value="<%=bean.getId()%>"> <input
 				type="hidden" name="createdBy" value="<%=bean.getCreatedBy()%>">
@@ -44,7 +39,6 @@
 				value="<%=DataUtility.getTimestamp(bean.getCreatedDatetime())%>">
 			<input type="hidden" name="modifiedDatetime"
 				value="<%=DataUtility.getTimestamp(bean.getModifiedDatetime())%>">
-
 
 			<table>
 
@@ -125,5 +119,6 @@
 			</table>
 		</div>
 	</form>
+	 <%@ include file="Footer.jsp"%>
 </body>
 </html>

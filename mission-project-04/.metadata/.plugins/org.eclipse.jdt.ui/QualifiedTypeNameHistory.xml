@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailBuilder"/>
     <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailMessage"/>
     <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailUtility"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

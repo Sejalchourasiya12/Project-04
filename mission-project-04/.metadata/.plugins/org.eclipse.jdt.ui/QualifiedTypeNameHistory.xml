@@ -14,4 +14,5 @@
     <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailMessage"/>
     <fullyQualifiedTypeName name="in.co.rays.proj4.util.EmailUtility"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 </qualifiedTypeNameHistroy>

@@ -17,8 +17,14 @@ import in.co.rays.proj4.util.EmailMessage;
 import in.co.rays.proj4.util.EmailUtility;
 import in.co.rays.proj4.util.JDBCDataSource;
 
-public class UserModel {
 
+/**
+ * @author Sejal
+ *
+ */
+
+public class UserModel {
+	
 	public static Integer nextPk() throws DatabaseException {
 		Connection conn = null;
 		int pk = 0;
@@ -44,6 +50,7 @@ public class UserModel {
 		return pk + 1;
 
 	}
+	
 
 	public long add(UserBean bean) throws ApplicationException, DuplicateRecordException {
 

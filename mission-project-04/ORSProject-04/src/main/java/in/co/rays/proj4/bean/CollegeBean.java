@@ -1,7 +1,12 @@
 package in.co.rays.proj4.bean;
 
+/**
+ * @author Sejal
+ *
+ */
 public class CollegeBean extends BaseBean {
 
+	
 	private String name;
 	private String address;
 	private String state;

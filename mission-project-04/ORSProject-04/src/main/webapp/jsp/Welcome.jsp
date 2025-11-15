@@ -12,7 +12,7 @@
 		<%@ include file="Header.jsp"%>
 		<br> <br> <br>
 		<h1 align="center">
-			<font size="10px" color="navy">Welcome to ORS Project</font>
+			<font size="10px" color="navy">Welcome to ORS123</font>
 		</h1>
 
 		<%

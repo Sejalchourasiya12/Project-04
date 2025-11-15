@@ -3,7 +3,7 @@
 <%@page import="in.co.rays.proj4.bean.RoleBean"%>
 <html>
 <head>
-<title>Welcome to ORS</title>
+<title>Welcome to ORS Project</title>
 <link rel="icon" type="image/png"
 	href="<%=ORSView.APP_CONTEXT%>/img/logo.png" sizes="16x16" />
 </head>

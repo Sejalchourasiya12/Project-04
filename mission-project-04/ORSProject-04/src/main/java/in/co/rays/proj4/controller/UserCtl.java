@@ -1,6 +1,7 @@
 package in.co.rays.proj4.controller;
 
 import java.io.IOException;
+import org.apache.log4j.Logger;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -22,6 +23,7 @@ import in.co.rays.proj4.util.ServletUtility;
 
 @WebServlet(name = "UserCtl", urlPatterns = { "/ctl/UserCtl" })
 public class UserCtl extends BaseCtl {
+	Logger log = Logger.getLogger(UserCtl.class);
 
 	@Override
 	protected void preload(HttpServletRequest request) {

@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import in.co.rays.proj4.bean.UserBean;
 import in.co.rays.proj4.exception.ApplicationException;
 import in.co.rays.proj4.exception.DatabaseException;
@@ -25,7 +27,10 @@ import in.co.rays.proj4.util.JDBCDataSource;
 
 public class UserModel {
 	
+	
+	
 	public static Integer nextPk() throws DatabaseException {
+		
 		Connection conn = null;
 		int pk = 0;
 
@@ -53,6 +58,8 @@ public class UserModel {
 	
 
 	public long add(UserBean bean) throws ApplicationException, DuplicateRecordException {
+		
+		
 
 		Connection conn = null;
 		int pk = 0;

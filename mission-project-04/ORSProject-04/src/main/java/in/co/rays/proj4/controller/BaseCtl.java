@@ -15,7 +15,13 @@ import in.co.rays.proj4.util.DataUtility;
 import in.co.rays.proj4.util.DataValidator;
 import in.co.rays.proj4.util.ServletUtility;
 
+/**
+ * @author Sejal
+ *
+ */
 public abstract class BaseCtl extends HttpServlet {
+	
+	Logger log = Logger.getLogger(BaseCtl.class);
 
 	public static final String OP_SAVE = "Save";
 	public static final String OP_UPDATE = "Update";
@@ -32,6 +38,7 @@ public abstract class BaseCtl extends HttpServlet {
 	public static final String OP_RESET = "Reset";
 	public static final String OP_LOG_OUT = "Logout";
 
+	/** Message keys for success and error messages. */
 	public static final String MSG_SUCCESS = "success";
 
 	public static final String MSG_ERROR = "error";

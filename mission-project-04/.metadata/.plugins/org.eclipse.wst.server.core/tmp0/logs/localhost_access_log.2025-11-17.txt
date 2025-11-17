@@ -75,3 +75,16 @@
 0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:24:29 +0530] "GET /ORSProject-04/ctl/PatientCtl HTTP/1.1" 200 6053
 0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:25:10 +0530] "POST /ORSProject-04/ctl/PatientCtl HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:25:10 +0530] "GET /ORSProject-04/ErrorCtl HTTP/1.1" 404 777
+127.0.0.1 - - [17/Nov/2025:13:35:54 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:35:54 +0530] "GET /ORSProject-04/ HTTP/1.1" 200 553
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:35:57 +0530] "GET /ORSProject-04/WelcomeCtl HTTP/1.1" 200 1749
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:35:59 +0530] "GET /ORSProject-04/LoginCtl HTTP/1.1" 200 3053
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:02 +0530] "POST /ORSProject-04/LoginCtl HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:02 +0530] "GET /ORSProject-04/WelcomeCtl HTTP/1.1" 200 3573
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:09 +0530] "GET /ORSProject-04/ctl/PatientListCtl HTTP/1.1" 200 4001
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:10 +0530] "GET /ORSProject-04/ctl/PatientCtl HTTP/1.1" 200 6053
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:37 +0530] "POST /ORSProject-04/ctl/PatientCtl HTTP/1.1" 200 6158
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:36:43 +0530] "GET /ORSProject-04/ctl/DoctorCtl HTTP/1.1" 200 6082
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:37:19 +0530] "POST /ORSProject-04/ctl/DoctorCtl HTTP/1.1" 200 6198
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:37:25 +0530] "GET /ORSProject-04/ctl/DoctorListCtl HTTP/1.1" 200 6033
+0:0:0:0:0:0:0:1 - - [17/Nov/2025:13:37:28 +0530] "GET /ORSProject-04/ctl/PatientListCtl HTTP/1.1" 200 6036

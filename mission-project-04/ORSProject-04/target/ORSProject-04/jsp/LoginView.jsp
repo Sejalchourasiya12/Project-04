@@ -39,6 +39,7 @@
 						value="<%=DataUtility.getStringData(bean.getLogin())%>"></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("login", request)%></font></td>
 				</tr>
+			
 				<tr>
 					<th align="left">Password<span style="color: red">*</span></th>
 					<td align="center"><input type="password" name="password"

@@ -3,7 +3,7 @@
 <%@page import="in.co.rays.proj4.controller.ORSView"%>
 <html>
 <head>
-<title>Online Result System</title>
+<title>Online Result System Project</title>
 <link rel="icon" type="image/png"
 	href="<%=ORSView.APP_CONTEXT%>/img/logo.png" sizes="16x16" />
 </head>

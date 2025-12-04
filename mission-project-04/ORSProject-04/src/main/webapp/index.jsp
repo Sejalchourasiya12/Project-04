@@ -31,7 +31,7 @@
 
 	<h1 align="center">
 		<font size="10px" color="Red"> <a
-			href="<%=ORSView.WELCOME_CTL%>">Online Result System Seju</a></font>
+			href="<%=ORSView.WELCOME_CTL%>">Online Result System Sejal</a></font>
 	</h1>
 
 </body>

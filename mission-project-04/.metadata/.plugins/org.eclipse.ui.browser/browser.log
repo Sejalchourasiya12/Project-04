@@ -607,3 +607,22 @@ Nov 25, 2025 08:38:06.71 [12108:15920:1125/083806.712:ERROR:google_apis\gcm\engi
 Nov 25, 2025 08:50:23.52 [12108:15920:1125/085023.527:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
 Nov 25, 2025 09:00:23.52 [12108:15920:1125/090023.529:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
 Nov 25, 2025 09:10:23.53 [12108:15920:1125/091023.536:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+
+Nov 26, 2025 14:57:44.17 NEW SESSION
+Nov 26, 2025 14:57:44.17 [19240:9488:1126/145744.174:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 14:57:44.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 26, 2025 14:58:13.56 [19240:9488:1126/145813.568:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 14:59:05.11 [19240:9488:1126/145905.112:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 15:01:00.58 [19240:9488:1126/150100.584:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Nov 26, 2025 15:04:43.92 [19240:9488:1126/150252.282:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Nov 26, 2025 15:04:43.95 [19240:9488:1126/150443.956:ERROR:google_apis\gcm\engine\registration_request.cc:275] Registration URL fetching failed.
+Nov 26, 2025 15:10:14.56 [19240:9488:1126/151014.564:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+
+Dec 04, 2025 13:22:15.88 NEW SESSION
+Dec 04, 2025 13:22:15.88 [16612:4644:1204/132215.879:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2025 13:22:16.26 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 04, 2025 13:22:41.64 [16612:4644:1204/132241.649:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2025 13:23:23.34 [16612:4644:1204/132323.335:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2025 13:25:18.76 [16612:4644:1204/132518.754:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2025 13:29:11.70 [16612:4644:1204/132911.700:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Dec 04, 2025 13:36:32.27 [16612:4644:1204/133632.273:ERROR:google_apis\gcm\engine\registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT

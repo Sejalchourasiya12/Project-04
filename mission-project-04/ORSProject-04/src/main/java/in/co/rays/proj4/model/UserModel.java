@@ -49,6 +49,8 @@ public class UserModel {
 			throw new DatabaseException("Exception : Exception in getting PK in User");
 
 		} finally {
+			
+			
 			JDBCDataSource.closeConnection(conn);
 		}
 

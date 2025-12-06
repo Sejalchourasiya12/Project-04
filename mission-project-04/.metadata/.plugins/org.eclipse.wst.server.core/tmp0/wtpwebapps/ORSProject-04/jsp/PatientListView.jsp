@@ -86,6 +86,7 @@
 					<th width="5%">Edit</th>
 				</tr>
 
+
 				<%
 					while (it.hasNext()) {
 							bean = (PatientBean) it.next();
